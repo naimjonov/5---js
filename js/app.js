@@ -245,3 +245,120 @@
 
 
 
+
+
+
+
+
+
+
+// While1. A va B butun musbat sonlari berilgan (A> B). A usunlikdagi kesmada maksimal darajada B kesma joylashtirilgan. A kesmaning bo'sh qismini aniqlovchi programma tuzilsin. Ko'paytirish va bo'lish amallarini ishlatmang.
+// let a = 22;
+// let b = 5;
+// while (a >= b) {
+//   a = a - b;
+//   console.log(a);
+// }
+
+// While2. A va B butun musbat sonlari berilgan (A > B). A usunlikdagi kesmada B kesmadan nechta joylashtirish mumkinligini aniqlovchi programma tuzilsin. Ko'paytirish va bo'lish amallarini ishlatmang.
+// let a = 40;
+// let b = 5;
+// let hisob = 0;
+// while (a >= b) {
+//   a = a - b;
+//   hisob++;
+// }
+// console.log(hisob);
+
+// While3. n butun soni berilgan (n > 0). Agar n soni 3 ning darajasi bo'lsa "3 - ning darajasi", aks xolda "3 - ning darajasi emas” degan natija chiqaruvchi programma tuzilsin. Qoldiqli bo'lish va bo'lish amallarini ishlatmang.
+// let n = 9;
+// let power = 1;
+// while (power < n) {
+//   power = power * 3;
+// }
+// if (power === n) {
+//   console.log("3 - ning darajasi");
+// } else {
+//   console.log("3 - ning darajasi emas!");
+// }
+
+// While4. n va m butun musbat sonlari berilgan (n > m). n sonini m soniga bo'lib butun va qoldiq qismlarini bo'lish va qoldiqni olish amallarini ishlatmasdan topuvchi programma tuzilsin.
+// let n = 23;
+// let m = 5;
+// let butunQism = 0;
+// while (n >= m) {
+//   n = n - m;
+//   butunQism++;
+// }
+// let qoldiq = n;
+// console.log("Butun qism:", butunQism);
+// console.log("Qoldiq:", qoldiq);
+
+// While5. n butun soni berilgan (n > 0). Bo'lib butun va qoldiq qismlarini aniqlash orqali, berilgan son raqamlarini teskari tartibda chiqaruvchi programma tuzilsin.
+// let son = 1234;
+// let reverse = 0;
+// while (son > 0) {
+//   reverse = reverse * 10 + (son % 10);
+//   son = Math.trunc(son / 10);
+// }
+// console.log(reverse);
+
+// While6. n butun soni berilgan (n > 0). Bo'lib butun va qoldiq qismlarini aniqlash orqali, berilgan son raqamlari yig'indisini va raqamlari sonini chiqaruvchi programma tuzilsin.
+// let son = 1239;
+// let reverse = 0;
+// while (son > 0) {
+//   reverse += son % 10;
+//   son = Math.trunc(son / 10);
+// }
+// console.log(reverse);
+
+// While7. n butun soni berilgan (n > 0). Bo'lib butun va qoldiq qismlarini aniqlash orqali, berilgan son raqamlarining orasida 2 raqami bor-yo'qligini aniqlovchi programma tuzilsin.
+// let son = 1412939;
+// while (son > 0) {
+//   const y = son % 10;
+//   if (y == 2) {
+//     console.log(true);
+//     break;
+//   }
+//   son = Math.trunc(son / 10);
+// }
+
+// While8. n butun soni berilgan (n > 0). Bo'lib butun va qoldiq qismlarini aniqlash orqali, berilgan son raqamlarining orasida toq raqamlar bor-yo'qligini aniqlovchi programma tuzilsin.
+// let son = 8888881;
+// while (son > 0) {
+//   const y = son % 10;
+//   if (y % 2 == 1) {
+//     console.log(true);
+//     break;
+//   }
+//   son = Math.trunc(son / 10);
+// }
+
+// While9. Palindromik songa tekshirish dasturini yozing. True yoki False qaytarsin.
+// Palindromik son – boshidan va oxiridan o’qilish bir xil bo’lgan son, masalan 1345431, 45788754
+// let son = 1221;
+// let son1 = son;
+// let reverse = 0;
+// while (son > 0) {
+//   reverse = reverse * 10 + (son % 10);
+//   son = Math.trunc(son / 10);
+// }
+// console.log(reverse == son1);
+
+// While10. n butun soni berilgan (n > 1). N sonini tub yoki tub emasligini aniqlovchi programma tuzilsin.
+// let n = 4;
+// let isPrime = true;
+// let i = 2;
+// while (i * i <= n) {
+//   if (n % i === 0) {
+//     isPrime = false;
+//     break;
+//   }
+//   i++;
+// }
+// if (isPrime) {
+//   console.log(" soni tub son.");
+// } else {
+//   console.log(" soni tub emas.");
+// }
+
